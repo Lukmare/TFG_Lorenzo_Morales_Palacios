@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Zxuaw5" name="BandasDeSonidoCompuesto" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1" cppLanguageStandard="17" companyName="Lorenzo Morales Palacios">
+  <MAINGROUP id="G3LnIW" name="BandasDeSonidoCompuesto">
+    <GROUP id="{7F20DA2E-5430-F6E3-C2EB-C95B4CBC8E92}" name="Source">
+      <GROUP id="{DF58376A-C7CD-B372-96F5-62AE8DE882C8}" name="Ecualizador">
+        <FILE id="mchART" name="Ecualizador_Editor.cpp" compile="1" resource="0"
+              file="Source/Ecualizador_Editor.cpp"/>
+        <FILE id="n3TMy3" name="Ecualizador_Editor.h" compile="0" resource="0"
+              file="Source/Ecualizador_Editor.h"/>
+        <FILE id="qNSmdK" name="Ecualizador_Procesador.cpp" compile="1" resource="0"
+              file="Source/Ecualizador_Procesador.cpp"/>
+        <FILE id="qOl4R1" name="Ecualizador_Procesador.h" compile="0" resource="0"
+              file="Source/Ecualizador_Procesador.h"/>
+      </GROUP>
+      <GROUP id="{4CDA47A1-4DFA-EF7C-0B67-DEDEAC48F12E}" name="DSP">
+        <FILE id="KHMfYK" name="BandaCompresor.cpp" compile="1" resource="0"
+              file="Source/DSP/BandaCompresor.cpp"/>
+        <FILE id="t1efqO" name="BandaCompresor.h" compile="0" resource="0"
+              file="Source/DSP/BandaCompresor.h"/>
+        <FILE id="KhB4fc" name="CanalSimpleFifo.h" compile="0" resource="0"
+              file="Source/DSP/CanalSimpleFifo.h"/>
+        <FILE id="fMYXFx" name="Fifo.h" compile="0" resource="0" file="Source/DSP/Fifo.h"/>
+        <FILE id="nIZZcz" name="Parametros.cpp" compile="1" resource="0" file="Source/DSP/Parametros.cpp"/>
+        <FILE id="TteCnY" name="Parametros.h" compile="0" resource="0" file="Source/DSP/Parametros.h"/>
+      </GROUP>
+      <GROUP id="{F6D19F43-10D0-0C65-FA6E-9A0E2299F29C}" name="GUI">
+        <FILE id="FII64V" name="BotonesPersonalizados.cpp" compile="1" resource="0"
+              file="Source/GUI/BotonesPersonalizados.cpp"/>
+        <FILE id="yilo66" name="BotonesPersonalizados.h" compile="0" resource="0"
+              file="Source/GUI/BotonesPersonalizados.h"/>
+        <FILE id="m13fAD" name="ComponenteParaConstruirOnda.cpp" compile="1"
+              resource="0" file="Source/GUI/ComponenteParaConstruirOnda.cpp"/>
+        <FILE id="GkvFws" name="ComponenteParaConstruirOnda.h" compile="0"
+              resource="0" file="Source/GUI/ComponenteParaConstruirOnda.h"/>
+        <FILE id="zCPIRs" name="ComponentesEstructurales.cpp" compile="1" resource="0"
+              file="Source/GUI/ComponentesEstructurales.cpp"/>
+        <FILE id="wCx5vN" name="ComponentesEstructurales.h" compile="0" resource="0"
+              file="Source/GUI/ComponentesEstructurales.h"/>
+        <FILE id="vxQDsM" name="ControlesDeCompresorDeBandas.cpp" compile="1"
+              resource="0" file="Source/GUI/ControlesDeCompresorDeBandas.cpp"/>
+        <FILE id="DWw2kK" name="ControlesDeCompresorDeBandas.h" compile="0"
+              resource="0" file="Source/GUI/ControlesDeCompresorDeBandas.h"/>
+        <FILE id="pHMwYD" name="ControlesGlobales.cpp" compile="1" resource="0"
+              file="Source/GUI/ControlesGlobales.cpp"/>
+        <FILE id="hfb4pL" name="ControlesGlobales.h" compile="0" resource="0"
+              file="Source/GUI/ControlesGlobales.h"/>
+        <FILE id="b6yCYB" name="Funcionalidades.cpp" compile="1" resource="0"
+              file="Source/GUI/Funcionalidades.cpp"/>
+        <FILE id="ETwqTw" name="Funcionalidades.h" compile="0" resource="0"
+              file="Source/GUI/Funcionalidades.h"/>
+        <FILE id="xCO2GI" name="GeneradorDeDatosFFT.cpp" compile="1" resource="0"
+              file="Source/GUI/GeneradorDeDatosFFT.cpp"/>
+        <FILE id="tcqUbJ" name="GeneradorDeDatosFFT.h" compile="0" resource="0"
+              file="Source/GUI/GeneradorDeDatosFFT.h"/>
+        <FILE id="IRlsio" name="GeneradorDeOndaParaAnalizador.cpp" compile="1"
+              resource="0" file="Source/GUI/GeneradorDeOndaParaAnalizador.cpp"/>
+        <FILE id="vXwtYt" name="GeneradorDeOndaParaAnalizador.h" compile="0"
+              resource="0" file="Source/GUI/GeneradorDeOndaParaAnalizador.h"/>
+        <FILE id="ZdYRir" name="LookAndFeel.cpp" compile="1" resource="0" file="Source/GUI/LookAndFeel.cpp"/>
+        <FILE id="kF7QqW" name="LookAndFeel.h" compile="0" resource="0" file="Source/GUI/LookAndFeel.h"/>
+        <FILE id="JDu7Ld" name="ProductorDeOndas.cpp" compile="1" resource="0"
+              file="Source/GUI/ProductorDeOndas.cpp"/>
+        <FILE id="jkDMsO" name="ProductorDeOndas.h" compile="0" resource="0"
+              file="Source/GUI/ProductorDeOndas.h"/>
+        <FILE id="QhPVKe" name="SliderRotatorioConEtiquetas.cpp" compile="1"
+              resource="0" file="Source/GUI/SliderRotatorioConEtiquetas.cpp"/>
+        <FILE id="ly5uPZ" name="SliderRotatorioConEtiquetas.h" compile="0"
+              resource="0" file="Source/GUI/SliderRotatorioConEtiquetas.h"/>
+      </GROUP>
+      <FILE id="i8YESk" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="U9JNJr" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="wq2O99" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="lEtsOy" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="BandasDeSonidoCompuesto"
+                       enablePluginBinaryCopyStep="1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="BandasDeSonidoCompuesto"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>

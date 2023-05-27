@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FILTERGRAPH>
+  <FILTER uid="1" x="0.38625" y="0.1149193548387097" useARA="0">
+    <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="246006c0"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="2" isShell="0" hasARAExtension="0" uid="246006c0"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="2" x="0.11125" y="0.07862903225806452" useARA="0">
+    <PLUGIN name="MIDI Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="a9e4f9eb"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="0" isShell="0" hasARAExtension="0" uid="a9e4f9eb"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="3" x="0.38875" y="0.8689516129032258" useARA="0">
+    <PLUGIN name="Audio Output" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="724248cb"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="2"
+            numOutputs="0" isShell="0" hasARAExtension="0" uid="724248cb"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="4" x="0.125" y="0.8931451612903226" useARA="0">
+    <PLUGIN name="MIDI Output" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="9d5bbb00"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="0" isShell="0" hasARAExtension="0" uid="9d5bbb00"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="5" x="0.3825" y="0.5020161290322581" useARA="0" uiLastX_Normal="646"
+          uiLastY_Normal="110" uiopen_Normal="1">
+    <PLUGIN name="BandasDeSonidoCompuesto" format="VST3" category="Fx" manufacturer="Lorenzo Morales Palacios"
+            version="1.0.0" file="C:\Program Files\Common Files\VST3\BandasDeSonidoCompuesto.vst3"
+            uniqueId="7ace716" isInstrument="0" fileTime="1882a6ed647" infoUpdateTime="1882fc3afad"
+            numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="e95d336f"/>
+    <STATE>2147.VMjLgnEB...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSMxTiKPUDahcFLVkkdIISX4EjKtDzLAQUPIUETMEDTtHjZFkkKD4hPEQDQioWQwfUbAY1XmcmUisVPP4RRP4hKt3hKt3hKJElKA4BUAkTUP0TPP4hPpYTVtPjKBUDRTQlcEEiX4EjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQtHTQ1QkVnUEahcVPlM1Y2Y0XqEDTtjDTt3hKt3hKt3BTg4RPtPUPIUETMEDTtHjZFkkKD4hPEYGUZM2ZFM1ZAY1XmcmUisVPP4RRP4hKt3hKt3hKtEkKC4BUAkTUP0TPP4hPpYTVtPjcAUDRUgkdqESXtf0UXIWUWkkKDAkPD4hKt3hKt3hKtIDTt3RUPIUQTMkKDYlKuEkQtDDSQETPQczXm0TLZYFRTgEcQYEVlgDUXAGNF4RLEYTXvTkQtDjZtDjKt3hKt3hKXoVPD4BTEoFUAACQtDDRPokZAAkKSQkYPQSPWgUdMcDRBUDagoVQFgjPEwlV0EjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQ1QTQ1QkVnUEahcVPnA0YzXTVmEDZPc1awDlKXcEVxU0UY4BQPIDQt3hKt3hKt.kYGAkKtTETRUDUS4BQl4xaQYjKAwTTAwzZVE1aQcUVlgDUXQWTVgkYHQEVvgiQtDSQFEFLUYjKAolKA4hKt3hKt3hKy3BSt.UQpQUPvPjKAgDTZoVPP4hTTYFUmE0UZUWPnA0YzXTVmEDZPc1awDlKXcEVxU0UY4BQPIDQt3hKt3hKt3hKAAkKtTETRUDUS4BQl4xaQYjKAoWTAYTRWkUZUcUVz0jUZcVPnA0YzXTVmEDZPc1awDlY5QUVpsVLg4BVWgkbUcUVtPDTBQjKt3hKt3hKtTlQP4hKUAkTEQ0TtPjYt7VTF4RP5EUPFkzUYkVUWkEcMYkVmEDZPcFMFk0YAIETxEkLgYldTkkZqESXtf0UXIWUWkkKDAkPD4hKt3hKt3hRyoDTt3RUPIUQTMkKDYlKuEkQtDDSQETPQczXm0TLZYFRTgEcQYEVlQDQgoGNF4RLEYTXvTkQtDjZtDjKt3hKt3hKtPkKD4BTEoFUAACQtDDRPokZAAkKTQETPoWTWgUZyYDRBUDagoVQFgTSUYTVugiQtDSQFEFLUYjKAolKA4hKt3hKt3BTqDDQt.UQpQUPvPjKAgDTZoVPP4xTTYFTzDzUXkWSGgjPEwVXpUjQHEzcFMVcAY1XmcmUisVPP4RRP4hKt3hKt3hKt3hKt3BUAkTUP0TPP4hPpYTVtPjKEUDRTQlcEEiX4EDZPcFMFk0YAI0TqEkUZUWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDYGQEYGUZgVUrI1YAgFTmQiQYcVPRAkbQISXtf0UXIWUWkkKDAkPD4hKt3hKt3hKtTDTt3RUPIUQTMkKDYlKuEkQtDDTQEDSqwFVqkzUXYFRTgEcQYEVloGUYo1ZwDlKXcEVxU0UY4BQPIDQt3hKt3hKt3BNGAkKtTETRUDUS4BQl4xaQYjKAwTTAwzZVE1aQcUVlgDUXQWTVgkYDQTX5giQtDSQFEFLUYjKAolKA4hKt3hKt3hKq3BSt.UQpQUPvPjKAgDTZoVPP4BUT4xTuAiUZoWUFgjPEwVXpUjQH0TUFk0a3XjKwTjQgASUF4RPp4RPt3hKt3hKt3RdtvjKPUjZTEDLD4RPHAkVpEDTtHEUlQ0YQckV0EDZPcFMFk0YAIETxEkLg4BVWgkbUcUVtPDTBQjKt3hKt3hKtXVPP4hKUAkTEQ0TtPjYt7VTF4RPLEUPRUjQi8FNFgjPEwVXpUjQH0TUFk0a3XjKwTjQgASUF4RPp4RPt3hKt3hKt3BbtPjKPUjZTEDLD4RPHAkVpEDTtDEU1E0YqwVXlAkUYYFUpEldIcEVpUjQtDSQFEFLUYjKAolKA4hKt3hKt3hKj4BQt.UQpQUPvPjKAgDTZoVPP4BTTYWTmsFagYFTVkkYLUEVxslQYcVPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKyrhPtPUPIUETMEDTtHjZFkkKDAEQEoGUioWUFgjPEwVXpUjQHEzcFMVcAY1XmcmUisVPP4RRP4hKt3hKt3hKt3hKt3BUAkTUP0TPP4hPpYTVtPDTDUjdTMldUYDRBUDagoVQFgjPEwlV0EjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQlQTQ5Q0X5UkQHITQrElZEYDRMUkQY8FNF4RLEYTXvTkQtDjZtDjKt3hKt3hKt3hKt3BTEoFUAACQtDDRPokZAAkKQQkcTU2cwDlYHQEVzEkUXYFQDEld3XjKwTjQgASUF4RPp4RPt3hKt3hKt3hKt3hKPUjZTEDLD4RPHAkVpEDTtDEU1QUc2ESXlgDUXQWTVgkYHQEVvgiQtDSQFEFLUYjKAolKA4hKt3hKt3hKt3hKt.UQpQUPvPjKAgDTZoVPP4hTTYGU0cWLgYFRTgEcQYEVloGUYo1ZwDlKXcEVxU0UY4BQPIDQt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="10" x="0.38375" y="0.2883064516129032" useARA="0" uiLastX_Normal="30"
+          uiLastY_Normal="218" uiopen_Normal="1">
+    <PLUGIN name="ReproductorArchivosMp3" format="VST3" category="Fx" manufacturer="LMP"
+            version="1.0.0" file="C:\Users\loren\OneDrive - UNIVERSIDAD DE SEVILLA\Escritorio\Uni\TFG\AudioFilePlayer-master\Builds\VisualStudio2022\x64\Debug\VST3\ReproductorArchivosMp3.vst3"
+            uniqueId="79fe81c" isInstrument="0" fileTime="1880185aa6d" infoUpdateTime="1882fc3afad"
+            numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="e95d02c7"/>
+    <STATE>392.VMjLg7W....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HSLv3BTIISX1UEaho2ZVkUdAAkKAwDUigWRWkEcQ0VTucmUY4BQlQVQLolShUELhsVRxHlX2ESX3UEagIFNpE1ZQolXuk0UYYldBgTUzPkTVUkZTM0ZDEUPQQDRDUEQHMUUpUUR2QzTAcWUQkWSrI1aQISX3sVLgIVUqE1a2UTUFMFQWMTQrEVZqESXzUULhI1cTA0TAgVUIcGQSETPRsjYDQUX0kzQHQSP3Q0Y2YDRtgUUZoVUwDlY2nVVu0jUZc1cVoDc5YjX44hKt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <CONNECTION srcFilter="5" srcChannel="0" dstFilter="3" dstChannel="0"/>
+  <CONNECTION srcFilter="5" srcChannel="1" dstFilter="3" dstChannel="1"/>
+  <CONNECTION srcFilter="10" srcChannel="0" dstFilter="5" dstChannel="0"/>
+  <CONNECTION srcFilter="10" srcChannel="1" dstFilter="5" dstChannel="1"/>
+</FILTERGRAPH>
